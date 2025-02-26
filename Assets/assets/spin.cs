@@ -31,6 +31,7 @@ public class spin : MonoBehaviour
     public GameObject autoSlot2;
     public GameObject party;
     public GameObject autoSlot;
+    public AudioSource winSound;
     //public IEnumerator autoS;
     // Start is called before the first frame update
     void Start()
@@ -163,6 +164,11 @@ public class spin : MonoBehaviour
         }
         */
         if (click>=1){
+            if (winSound.isPlaying == false){
+                Debug.Log ("winSound played");
+                winSound.Play();
+            }
+            
             score = score + num;
             rolledScore.text = num.ToString();
         }
