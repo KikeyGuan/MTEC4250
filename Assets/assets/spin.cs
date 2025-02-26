@@ -207,13 +207,13 @@ public class spin : MonoBehaviour
     }
 
     public void loan() {
-        if (0 != 0)// click >=20. 0==0 for upgrade testing
+        if (click >= 10)// click >=20. 0==0 for upgrade testing
         {
             click = 0;
         }
         else
         {
-            click = click + 20;
+            click = click + 10;
         }
         
 
