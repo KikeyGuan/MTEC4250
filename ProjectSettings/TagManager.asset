@@ -5,15 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - star
+  - wall
+  - danger
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - star
   - Water
   - UI
-  - 
-  - 
+  - wall
+  - danger
   - 
   - 
   - 
