@@ -14,7 +14,7 @@ public class redSpotVer2 : MonoBehaviour
     bool canFill = true;
     bool routineHappening = false;
     public bool crash = false;
-    //public IEnumerator bucketFill;
+    public player player;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +24,7 @@ public class redSpotVer2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && onTrigger == true){
+        if(Input.GetKeyDown(KeyCode.Space) && onTrigger == true && player.canMove == true){//and canMove == true
             bucket = bucket-1;
             Debug.Log("pressed");
         }
@@ -56,7 +56,7 @@ public class redSpotVer2 : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision){
         if(collision.gameObject.tag == "Player"){
             onTrigger = true;
-            Debug.Log("enter");
+            //Debug.Log("enter");
         }
     }
     public void OnTriggerExit2D(Collider2D collision){
