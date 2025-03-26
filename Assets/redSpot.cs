@@ -14,7 +14,7 @@ public class redSpot : MonoBehaviour
     void Start()
     {
         missingNum = Random.Range(1,50);
-        Debug.Log("rand Num: "+ missingNum);
+        //Debug.Log("rand Num: "+ missingNum);
         
     }
 
@@ -27,7 +27,7 @@ public class redSpot : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Alpha1) && onTrigger == true){
             missingNum = missingNum-1;
-            Debug.Log("pressed numder 1");
+            //Debug.Log("pressed numder 1");
         }
         if(Input.GetKeyDown(KeyCode.Alpha5) && onTrigger == true){
             missingNum = missingNum-5;
@@ -45,4 +45,5 @@ public class redSpot : MonoBehaviour
             onTrigger = false;
         }
     }
+    
 }
