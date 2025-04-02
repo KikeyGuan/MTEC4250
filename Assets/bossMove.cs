@@ -34,12 +34,12 @@ public class bossMove : MonoBehaviour
     public IEnumerator waitForTimeLimit2;
     public player text;
     public TextMeshProUGUI countdownTXT;
-    float countdown = 18;
+    float countdown = 58;
     // Start is called before the first frame update
     void Start()
     {
-        waitForTimeLimit = timeLimit(16f);
-        waitForTimeLimit2 = timeLimit2(16f);
+        waitForTimeLimit = timeLimit(56f);
+        waitForTimeLimit2 = timeLimit2(56f);
  
     }
 
@@ -72,7 +72,7 @@ public class bossMove : MonoBehaviour
         }
         if(area ==2){
             transform.position=Vector2.MoveTowards(transform.position, area2.transform.position, speed * Time.deltaTime);
-            countdown = 18f - Time.deltaTime;
+            countdown = 58f - Time.deltaTime;
             countdownTXT.text = countdown.ToString();
             if (routineHappening == false)
             {
