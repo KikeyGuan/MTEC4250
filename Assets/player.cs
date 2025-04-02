@@ -14,17 +14,31 @@ public class player : MonoBehaviour
     bool cortineHappening = false;
     bool safe =true;
     public bool canMove = true;
+    public SpriteRenderer playerColor;
     //float waitTime = 3f;
     // Start is called before the first frame update
     void Start()
     {
         
+
     }
 
     // Update is called once per frame
     void Update()
     {
         healthTXT.text = "<3: " + health;
+        if(canMove == false){
+            playerColor.color =new Color(1,1,1);
+        }
+        if(canMove == true){
+            playerColor.color = new Color(0.2f,0.7f,0.9f);
+        }
+        if (health == 0){
+            healthTXT.text = "<3: " + health + "  YOU HAVE FAILED TO CRASH THE MARKET";
+            Time.timeScale = 0;
+        }
+
+        
         if (!canMove) return;// !!!!stops code underneth this one. (!canMove)= can move == false
 
         move.x = Input.GetAxisRaw("Horizontal");
@@ -32,6 +46,8 @@ public class player : MonoBehaviour
 
         move.Normalize();
         playerRB.velocity = move * speed;
+
+        
         
     }
     
