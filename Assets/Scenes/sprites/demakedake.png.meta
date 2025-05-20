@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: demakedake_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1137
+        width: 400
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1d65a1e946f594c854fcace597b793
+      internalID: 886539829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_1
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1349
+        width: 153
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c6e6bfd0214d843b80e9091d41116a
+      internalID: -1900128319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_2
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1342
+        width: 115
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a160f85ca4d014a8fcb1c96a509ef9
+      internalID: 1666216607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_3
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1340
+        width: 115
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b42ecd0fd1c3d459522710a6d90bdb
+      internalID: 2000310677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_4
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1353
+        width: 135
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bcf58fa50086a42891c00226427eef
+      internalID: -2089939273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_5
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1343
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429d19b571c488649b0253ccac55ade0
+      internalID: 613542796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_6
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1183
+        width: 307
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9771bfaccee6d334b87ac6330407f359
+      internalID: -1336541978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_7
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1349
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f9aa6ad17bec24c82cd886119d80b8
+      internalID: -894726013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1167
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab4d01f9887f9840a8488613247aaf9
+      internalID: 20761599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_9
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1150
+        width: 152
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163bbccfc7dc826438168e741906b644
+      internalID: 495736791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_10
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1241
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97d6f8e79dee4949a3a556ebb7814b0
+      internalID: -1415556513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_11
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1149
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d6b9567c85bfb4ea98c98f9bfa16a5
+      internalID: 4691261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_12
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1166
+        width: 123
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452d9f794add9fc4b942b0845763e66d
+      internalID: 707700554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_13
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1135
+        width: 157
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7130639ec2adc4c907fbb22c3380ef
+      internalID: 1243880132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_14
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1147
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3935263f74348d4587312630d311a6b
+      internalID: 1420465809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 723
+        width: 405
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a509b54a5aba543ad9e8791263d155
+      internalID: 1707955766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 986
+        width: 150
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ce8f0eb9b5f404cb7ae9b1f9449748
+      internalID: 361354068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_17
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 628
+        width: 425
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55fff4cee831904dbe859210737af43
+      internalID: 2111345869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_18
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 630
+        width: 355
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c138aa1a3171945a2bdc0dac44cfc1
+      internalID: -462581220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 315
+        width: 400
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43622c6b6e83b8a4489b91d49fe419ae
+      internalID: -1348284481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_20
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 398
+        width: 479
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995a82e355bdb05479514ece49097012
+      internalID: -26383729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_21
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 111
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29216794666078478e4b8244f0a411f
+      internalID: 955825538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_22
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 105
+        width: 329
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1004782eaae72ad4dbc3160dfd6b8588
+      internalID: -1453531951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 35
+        width: 382
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6536e94af8d474cad1da4ab92fd85b
+      internalID: -1572000984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demakedake_24
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 86
+        width: 460
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894346f32f739434386e5d375c365edf
+      internalID: 797295368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +657,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      demakedake_0: 886539829
+      demakedake_1: -1900128319
+      demakedake_10: -1415556513
+      demakedake_11: 4691261
+      demakedake_12: 707700554
+      demakedake_13: 1243880132
+      demakedake_14: 1420465809
+      demakedake_15: 1707955766
+      demakedake_16: 361354068
+      demakedake_17: 2111345869
+      demakedake_18: -462581220
+      demakedake_19: -1348284481
+      demakedake_2: 1666216607
+      demakedake_20: -26383729
+      demakedake_21: 955825538
+      demakedake_22: -1453531951
+      demakedake_23: -1572000984
+      demakedake_24: 797295368
+      demakedake_3: 2000310677
+      demakedake_4: -2089939273
+      demakedake_5: 613542796
+      demakedake_6: -1336541978
+      demakedake_7: -894726013
+      demakedake_8: 20761599
+      demakedake_9: 495736791
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
