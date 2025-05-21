@@ -9,6 +9,7 @@ TagManager:
   - egg
   - milk
   - flour
+  - cat
   layers:
   - Default
   - TransparentFX
