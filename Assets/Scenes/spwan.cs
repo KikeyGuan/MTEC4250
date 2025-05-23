@@ -26,9 +26,10 @@ public class spwan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 randomSpwanPos = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), 0); //x.y
-        Vector3 randomSpwanPos1 = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), 0); //x.y
-        Vector3 randomSpwanPos2 = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), 0); //x.y
+        Vector3 randomSpwanPos = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), Random.Range(-1f, -2f)); //x.y
+        Vector3 randomSpwanPos1 = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), Random.Range(-1f, -2f)); //x.y
+        Vector3 randomSpwanPos2 = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), Random.Range(-1f, -2f)); //x.y
+        Vector3 randomSpwanPos3 = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), Random.Range(-1f, -2f));
         if (foodSpawn != foodlimit) //would add respwan but too many items
         {
             //Vector3 randomSpwanPos = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), 0); //x.y
@@ -39,9 +40,9 @@ public class spwan : MonoBehaviour
         if (upgradeSpwan != upgradelimit) //would add respwan but too many items
         {
             //Vector3 randomSpwanPos = new Vector3(Random.Range(-45, 44), Random.Range(-43, 43), 0); //x.y
-            Instantiate(upgrade[0], randomSpwanPos, Quaternion.identity);
-            Instantiate(upgrade[1], randomSpwanPos1, Quaternion.identity);
-            Instantiate(upgrade[2], randomSpwanPos2, Quaternion.identity);
+            Instantiate(upgrade[0], randomSpwanPos1, Quaternion.identity);
+            Instantiate(upgrade[1], randomSpwanPos2, Quaternion.identity);
+            Instantiate(upgrade[2], randomSpwanPos3, Quaternion.identity);
             upgradeSpwan += 1;
             
             

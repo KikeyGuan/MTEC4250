@@ -10,7 +10,7 @@ public class movement : MonoBehaviour
     public float speed, gatherArea, torque;
     private Vector2 move;
     public Transform attachToPlayer, attachToMove; //the cake or the move object
-    private Vector2 insideCricle;
+    private Vector3 insideCricle;
     private Vector3 randomCricle;
     public GameObject cake, shoal;
     public CinemachineVirtualCamera camera;
